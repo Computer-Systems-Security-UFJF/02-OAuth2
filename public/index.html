@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login com Google</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 60px auto; padding: 0 16px; }
+    a.btn { display: inline-block; padding: 10px 18px; border: 1px solid #444; border-radius: 6px; text-decoration: none; color: #111; }
+  </style>
+</head>
+<body>
+  <h1>Autenticação com Google OAuth2</h1>
+  <p>Esta aplicação autentica você pelo Google e, em seguida, aplica controle de acesso (RBAC) com base no domínio do seu e-mail institucional.</p>
+  <ul>
+    <li><code>@ufjf.br</code> &rarr; papel <strong>professor</strong></li>
+    <li><code>@estudante.ufjf.br</code> &rarr; papel <strong>aluno</strong></li>
+    <li>Outros domínios &rarr; acesso negado</li>
+  </ul>
+  <a class="btn" href="/login">Clique aqui para fazer login com Google</a>
+</body>
+</html>
